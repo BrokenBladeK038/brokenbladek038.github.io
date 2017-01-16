@@ -3466,10 +3466,10 @@ fieldset[disabled] .btn-info.active {
   background-color: #ffffff;
 }
 .btn-warning {
-  border-color: #f9a527;
+  border-color: #0C0C0C;
   color: #ffffff;
-  background-color: #faaf40;
-  border-color: #faaf40;
+  background-color: #086bf6;
+  border-color: #032A62;
 }
 .btn-warning:hover,
 .btn-warning:focus,
