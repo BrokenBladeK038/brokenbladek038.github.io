@@ -21,3 +21,111 @@
 	width:auto;
 	
 }
+
+		
+
+
+
+
+
+
+
+
+
+
+.slider{
+	width: 800px;
+	height: 300;
+	margin:auto;
+}
+.slider .item{
+	width:100%;
+	height:100%;
+	
+}
+.controlers {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "lesshat";
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
+
+@font-family-base: 'Roboto', sans-serif;
+
+// Structure
+.container {
+  .size(700,200);
+  margin: 40px auto;
+}
+
+.block-media {
+  .size(350,200);
+  display: inline-block;
+  float: left;
+}
+
+.block-text {
+  .box-sizing(border-box);
+  .size(350,200);
+  background-color: #2c3e50;
+  display: inline-block;
+  float: left;
+}
+
+// Content
+.carousel-images {
+  & > .slick-list {
+    padding: 0 !important;
+    & > .slick-slide {
+      width: 350px !important;
+    }
+  }
+  & > .slick-prev {
+    left: 10px;
+  }
+  & > .slick-next {
+    right: 10px;
+  }
+  & > .slick-dots {
+    bottom: -10px;
+    & > li button:before {
+      font-size: 12px;
+    }
+  }
+}
+
+.carousel-text {
+  font-family: @font-family-base;
+  font-weight: 100;
+  padding: 20px;
+  .title {
+    color: #bdc3c7;
+    font-size: 1.05em;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .headline {
+    color: #fff;
+    text-align: justify;
+  }
+}
