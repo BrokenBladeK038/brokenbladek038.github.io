@@ -38,12 +38,12 @@ h2 {
 .mbr-parallax-background,
 .mbr-background {
   background-attachment: fixed !important;
-  background-position: 50% 0;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover !important;
 }
 .mbr-hidden-scrollbar .mbr-parallax-background {
-  background-size: auto 130%;
+  background-size: 100%;
 }
 .mobile .mbr-parallax-background {
   background-attachment: scroll !important;
