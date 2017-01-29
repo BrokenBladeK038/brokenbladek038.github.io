@@ -1371,7 +1371,7 @@ h2 {
     bottom: 41px;
   }
 }
-@media (max-width: 320px) {
+@media ( max-width : 320px ){
   .mbr-arrow {
     bottom: 21px;
     text-align: center;
