@@ -9,12 +9,12 @@
 	display: table;
 }
 .mbr-slider .carousel-control {
-    background-color: #0100B0;
-    width: 150px;
-    height: 75px;
+    background-color: #FFFFFF;
+    width: 30px;
+    height: 30px;
     top: 50%;
     margin-top: -30px;
-    line-height: 70px;
+    line-height: 30px;
     border: 2px solid #fff;
     opacity: 1;
     text-shadow: none;
@@ -24,10 +24,10 @@
     transition: all 0.2s ease-in-out 0s;
 }
 .mbr-slider .carousel-control.left {
-	margin-left: -180px;
+	margin-left: 10px;
 }
 .mbr-slider .carousel-control.right {
-	margin-right: -180px;
+	margin-right: 10px;
 }
 .mbr-slider .carousel-control:hover {
 	background: #191F2B;
