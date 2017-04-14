@@ -3,12 +3,12 @@ html {
   min-height: 100%;
 }
 
-body{
+body h1{
 	font-family: 'Dosis', sans-serif;
 }
 
 h2 {
-	font-family: ;
+	font-family: 'dosis' ;
     font-size: 30px;
     line-height: 1.1em;
     text-transform: uppercase;
@@ -20,7 +20,9 @@ h2 {
 
 
 
-
+.main {
+	font-family: 'dosis';
+}
 
 
 .mbr-transparent {
